@@ -1,2 +1,0 @@
-# AppleFame
-My university project
