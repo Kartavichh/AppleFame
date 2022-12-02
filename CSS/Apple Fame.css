@@ -1,0 +1,330 @@
+/* Шапка страницы */
+@font-face {
+	font-family: 'Montserrat'; 
+	src: local('Montserrat'),
+		url(../Fonts/Monsterrat/Montserrat-Regular.ttf); 
+}
+header{
+    background: linear-gradient(270deg, #005772, #3cb6e5);
+    margin-top: -0.8em;
+    margin-left: -1.1ex;
+    margin-right: -1.1ex;
+    height: 80px;
+    opacity: 0.8;
+	
+}
+.hea {
+    font-family: Montserrat;
+    font-size: 50px;
+    margin-top: -1.2em;
+    margin-left: 42%;
+	color: #0d0d0e;
+}
+.logo{
+    margin-left: 39%;
+    margin-top: 12px;
+    height: 55PX;
+}
+@media (max-width: 660px) {
+	.hea {
+		margin-left: 30%;
+		font-size: 40px;
+		margin-top: -14%;
+	}
+	.logo{
+		margin-left: 10%;
+	}
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Основная часть страницы */
+body{
+    background-image: url(../Images/Other/iphone-14-pro-display2.png);
+    font-family: San Francisco Pro Text, Montserrat;
+    background-attachment: fixed ;
+	background-position: top center;
+}
+footer {
+    background: #005772;
+	box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+   padding: 1.75em .5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 4em;
+   border-radius: 2em;
+   }
+.disc{
+	background-color: rgba(0, 0, 0, 0.7);
+	text-indent: 60px;
+	color: white;
+	margin-top: 15%;
+	margin-left: 5%;
+	width: 90%;
+	font-size: 30px;
+	position: relative;
+	box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+   	padding: 1em .4em;
+	border-radius: 2em;
+}
+@media (max-width: 660px) {
+	.disc{
+		display: none;
+	}
+}
+h1{
+	text-align: center;
+    color: #308fb4;
+    margin-left: 20px;
+	width: 300px;
+}
+@media (max-width: 660px) {
+	h1{
+		margin-left: 11%;
+	}
+}
+.p{
+	text-indent: 60px;
+	color: white;
+	margin-left: 155px;
+	font-size: large;
+	margin-right: 35px;
+	margin-top: 90px;
+	font-size: 21px;
+	position: relative;
+}
+@media (max-width: 660px) {
+	.p{
+		width: 85%;
+		box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+   		padding: 1em .4em;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.7);
+		margin-top: 90%;
+		margin-left: 5%;
+		text-indent: 30px;
+		text-shadow: #000000 2px 0 2px;
+		border-radius: 2em;
+	}
+}
+.leftimg{
+	float:left;
+    margin-left: 3%;
+	margin-top: 2%;
+}
+@media (max-width: 660px) {
+	.leftimg{
+		margin-left: 14%;
+	}
+}
+.ram{
+	margin-top: -13%;
+	width: 84%;
+	margin-left: -4%;
+}
+@media (max-width: 660px) {
+	.ram{
+		display: none;
+	}
+}
+.social,
+.menu {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+.social li,
+.menu li {
+   list-style: none;
+}
+
+.social li a {
+   font-size: 2em;
+   color: #c7e5ed;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+}
+
+.menu li a {
+   font-size: 1.2em;
+   color: white;
+   margin: 0 15px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.menu li a:hover {
+   opacity: 1;
+}
+/* Меню */
+.b1{
+	width: 25px;
+	margin-top: 0px;
+	margin-right: 2px;
+}
+button {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	cursor: pointer;
+	line-height: 1;
+	color: inherit;
+	font-family: 'San Francisco Pro Text', Montserrat;
+	font-size: 16px;
+  }
+  
+  @media (width >= 500px) {
+	button {
+	  font-size: 20px;
+	}
+  }
+  
+  :is(.navbar, .dropdowns) {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .navbar {
+	position: static;
+	margin-top: -67px;
+	width: 300px;
+	z-index: 1;
+	left: 0;
+	display: flex;
+	align-items: stretch;
+	height: 72px;
+	color: black;
+  } 
+  .button {	
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 0 24px;
+	height: 100%;
+	opacity: 1;
+	margin-top: 2px;
+	font-size: 30px;
+	font-weight: bold;
+  }
+  
+  @media (width >= 500px) {
+	.button {
+	  padding: 0 10px 0 24px;
+	}
+  
+  }
+  
+  @media (width >= 500px) {
+	.dropdown:hover .button {
+	  opacity: 1;
+	}
+  }
+  
+  .dropdowns {
+	left: -9999px;
+	z-index: 2;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #0d0d0e;
+	opacity: 0;
+	visibility: hidden;
+	transition-property: opacity, visibility;
+	transition-duration: 0.3s;
+  }
+  
+  @media (width < 500px) {
+	body.open .dropdowns {
+	  opacity: 1;
+	  visibility: visible;
+	  left: 0;
+	}
+  }
+  
+  @media (width >= 500px) {
+	.dropdowns {
+	  position: static;
+	  flex-direction: row;
+	  justify-content: flex-start;
+	  background: transparent;
+	  opacity: 1;
+	  visibility: visible;
+	}
+  }
+  
+  .dropdown {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  }
+  
+  .dropdown-menu {
+	margin-top: 3px;
+	display: grid;
+	margin-bottom: 28px;
+  }
+  
+  @media (width >= 500px) {
+	.dropdown {
+	  height: 100%;
+	  flex-direction: row;
+	}
+  
+	.dropdown-menu {
+	  position: absolute;
+	  top: 72px;
+	  left: 0;
+	  width: 180px;
+	  padding: 6px 24px 10px;
+	  margin-bottom: 0;
+	  place-items: start;
+	  background: #308fb4;
+	  opacity: 0;
+	  visibility: hidden;
+	  translate: 0 24px;
+	  transition: 0.3s;
+	}
+  
+	.dropdown:hover .dropdown-menu {
+	  opacity: 1;
+	  visibility: visible;
+	  translate: 0 0;
+	}
+  }
+  
+  .dropdown-menu > button {
+	color: #f9f9f9;
+	opacity: 1;
+	height: 40px;
+  }
+  
+  @media (width >= 500px) {
+	.dropdown-menu > button {
+	  opacity: 0.6;
+	}
+  
+	.dropdown:hover .button {
+	  opacity: 1;
+	}
+  }
+  
+  .dropdown-menu > button:hover {
+	opacity: 1;
+  }
+.fe{
+	margin-top: 10px;
+}
+.de{
+	margin-top: 10px;
+}
