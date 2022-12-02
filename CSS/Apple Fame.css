@@ -22,16 +22,22 @@ header{
     margin-left: 42%;
 	color: #0d0d0e;
 }
-@media (max-width: 660px) {
+@media (width < 664px){
+	.hea{
+		margin-left: 30%;
+	}
+}
+@media (max-width: 480px) {
 	.hea {
 		margin-left: 30%;
 		font-size: 40px;
 		margin-top: -14%;
 	}
+}
 @media (width < 390px) {
 	.hea {
 		margin-top: -15%;
-		margin-left: 26%;
+		margin-left: 25%;
 	}
   }
 .logo{
@@ -49,11 +55,17 @@ header{
 		margin-left: 35%;
 	}
   }
-
+  @media (width < 690px){
+	.logo{
+		margin-left: 21%;
+	}
+}
+@media (width < 390px){
 	.logo{
 		margin-left: 10%;
 	}
 }
+
 a{
     text-decoration: none;
     color: white;
