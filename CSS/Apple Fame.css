@@ -26,6 +26,16 @@ header{
     margin-top: 0.8em;
     height: 55PX;
 }
+@media (width < 1740px) {
+	.logo {
+		margin-left: 37%;
+	}
+  }
+  @media (width < 1055px) {
+	.logo {
+		margin-left: 35%;
+	}
+  }
 @media (max-width: 660px) {
 	.hea {
 		margin-left: 30%;
@@ -160,7 +170,11 @@ h1{
 .menu li {
    list-style: none;
 }
-
+@media (width < 500px) {
+	.social {
+		margin-left: -6%;
+	}
+  } 
 .social li a {
    font-size: 2em;
    color: #c7e5ed;
@@ -168,7 +182,6 @@ h1{
    display: inline-block;
    transition: 0.5s;
 }
-
 .menu li a {
    font-size: 1.2em;
    color: white;
@@ -219,6 +232,11 @@ button {
 	align-items: stretch;
 	height: 72px;
 	color: black;
+  }
+  @media (width < 665px) {
+	.navbar {
+		display: none;
+	}
   } 
   .button {	
 	display: flex;
