@@ -121,6 +121,11 @@ h1{
 		margin-left: 14%;
 	}
 }
+@media (if width: 660px) {
+	.ram{
+		display: none;
+	}
+}
 .ram{
 	margin-top: -13%;
 	width: 84%;
