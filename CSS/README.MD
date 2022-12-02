@@ -1,0 +1,1 @@
+This is website for my university project, just open index.html
