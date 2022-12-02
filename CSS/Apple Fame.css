@@ -23,7 +23,7 @@ header{
 }
 .logo{
     margin-left: 39%;
-    margin-top: 12px;
+    margin-top: 0.7em;
     height: 55PX;
 }
 @media (max-width: 660px) {
