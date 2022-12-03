@@ -10,27 +10,76 @@ header{
     background: linear-gradient(270deg, #005772, #3cb6e5);
     margin-top: -0.8em;
     margin-left: -1.1ex;
-    margin-right: -1.1ex;
+    margin-right: -1ex;
     height: 80px;
     opacity: 0.8;
-	
+}
+@media (width < 664px){
+	header{
+		width: 110%;
+	}
+}
+@media (width < 410px){
+	header{
+		width: 130%;
+	}
 }
 .hea {
-    font-family: San Francisco Pro Text, Montserrat;
+    font-family: Montserrat;
     font-size: 50px;
-    /* color: aqua; */
     margin-top: -1.2em;
-    text-align: center;
+    margin-left: 42%;
 	color: #0d0d0e;
 }
+@media (width < 664px){
+	.hea{
+		margin-left: 30%;
+	}
+}
+@media (max-width: 480px) {
+	.hea {
+		margin-left: 30%;
+		font-size: 40px;
+		margin-top: -14%;
+	}
+}
+@media (width < 390px) {
+	.hea {
+		margin-top: -15%;
+		margin-left: 25%;
+	}
+  }
 .logo{
-    margin-left: 745px;
-    margin-right:auto;
-    box-sizing: content-box;
-    margin-top: 12px;
-    position: relative;
+    margin-left: 39%;
+    margin-top: 0.8em;
     height: 55PX;
 }
+@media (width < 1740px) {
+	.logo {
+		margin-left: 37%;
+	}
+  }
+  @media (width < 1055px) {
+	.logo {
+		margin-left: 35%;
+	}
+  }
+  @media (width < 690px){
+	.logo{
+		margin-left: 21%;
+	}
+}
+@media (width < 500px){
+	.logo{
+		margin-left: 15%;
+	}
+}
+@media (width < 390px){
+	.logo{
+		margin-left: 10%;
+	}
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -49,12 +98,82 @@ body{
 	margin-right: 2px;
 }
 
-h1{
-	margin-top: 1px;
+h1{ font-style: bold;
+	font-size: 6em;
+	margin-top: 1%;
 	height: 0px;
-    color: #308fb4;
-    margin-left: 20px;
+		color: #308fb4;
+		margin-left: 4%;
+
 }
+.Whitebox{
+	border-radius: 1.5em;
+	margin-top: 8%;
+	margin-left: 3.5%;
+	background-color: #f9f9f9;
+	width: 93%;
+	height: 80em;
+}
+.deliv{
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 4%;
+	font-size: 35px;
+}
+.CDEK{
+	margin-left: 3%;
+	position: absolute;
+	width: 20%;
+}
+.social,
+.menu {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+.social li,
+.menu li {
+   list-style: none;
+}
+@media (width < 500px) {
+	.social {
+		margin-left: -6%;
+	}
+  } 
+.social li a {
+   font-size: 2em;
+   color: #c7e5ed;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+}
+.menu li a {
+   font-size: 1.2em;
+   color: white;
+   margin: 0 15px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.menu li a:hover {
+   opacity: 1;
+}
+footer {
+	position: fixed;
+    background: #005772;
+	box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+   padding: 1.75em .5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 6%;
+   border-radius: 2em;
+   position: static;
+   }
 /* Меню */
 button {
 	border: 0;
