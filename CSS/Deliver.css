@@ -183,6 +183,22 @@ h1{ font-style: bold;
 		margin-left: 2%;
 	}
   }
+  .map{
+	margin-left: 59%;
+    margin-top: 6%;
+    position: absolute;
+	width: 500px;
+	height: 320px;
+  }
+  @media (width < 1520px) {
+	.map {
+	margin-left: 53%;
+    margin-top: 6%;
+    position: absolute;
+	width: 500px;
+	height: 320px;
+	}
+  }
   hr{
 	border: none;
     background-color: #308fb4;
