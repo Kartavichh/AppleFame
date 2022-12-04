@@ -138,51 +138,11 @@ h1{ font-style: bold;
   }
 .Whitebox{
 	border-radius: 1.5em;
-	margin-top: 8%;
 	margin-left: 3.5%;
 	background-color: #f9f9f9;
 	width: 93%;
 	height: 80em;
 }
-@media (width < 1500px) {
-	.Whitebox {
-		margin-top: 10%;
-	}
-  }
-  @media (width < 1200px) {
-	.Whitebox {
-		margin-top: 12%;
-	}
-  }
-  @media (width < 1000px) {
-	.Whitebox {
-		margin-top: 14%;
-	}
-  } @media (width < 900px) {
-	.Whitebox {
-		margin-top: 16%;
-	}
-  }
-@media (width < 800px) {
-	.Whitebox {
-		margin-top: 18%;
-	}
-  }
-  @media (width < 700px) {
-	.Whitebox {
-		margin-top: 20%;
-	}
-  }
-  @media (width < 600px) {
-	.Whitebox {
-		margin-top: 22%;
-	}
-  }
-  @media (width < 560px) {
-	.Whitebox {
-		margin-top: 24%;
-	}
-  }
   @media (width < 500px){
 .Whitebox {
     width: 90%;
@@ -299,6 +259,28 @@ h1{ font-style: bold;
 		margin-top: 30%;
 		margin-left: 2%;
 	}
+  }
+  .text{
+	position: absolute;
+	margin-top: 35%;
+	margin-left: 3%;
+	font-size: 30px;
+	width: 85%;
+  }
+  .text1{
+	color: #308fb4;
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 3%;
+	font-size: 30px;
+	width: 85%;
+  }
+  .text2{
+	position: absolute;
+	margin-top: 45%;
+	margin-left: 3%;
+	font-size: 30px;
+	width: 85%;
   }
 .social,
 .menu {
