@@ -14,16 +14,6 @@ header{
     height: 80px;
     opacity: 0.8;
 }
-@media (width < 664px){
-	header{
-		width: 110%;
-	}
-}
-@media (width < 410px){
-	header{
-		width: 130%;
-	}
-}
 .hea {
     font-family: Montserrat;
     font-size: 50px;
@@ -31,22 +21,28 @@ header{
     margin-left: 42%;
 	color: #0d0d0e;
 }
-@media (width < 664px){
+@media (width < 690px){
 	.hea{
 		margin-left: 30%;
 	}
 }
-@media (max-width: 480px) {
+@media (width < 480px) {
 	.hea {
-		margin-left: 30%;
-		font-size: 40px;
-		margin-top: -14%;
+		margin-left: 23%;
 	}
 }
+@media (width < 400px) {
+	.hea {
+		font-size: 40px;
+		margin-left: 25%;
+		margin-top: -14%;
+	}
+  }	
 @media (width < 390px) {
 	.hea {
-		margin-top: -15%;
+		font-size: 40px;
 		margin-left: 25%;
+		margin-top: -15%;
 	}
   }
 .logo{
@@ -71,7 +67,7 @@ header{
 }
 @media (width < 500px){
 	.logo{
-		margin-left: 15%;
+		margin-left: 11%;
 	}
 }
 @media (width < 390px){
@@ -87,7 +83,7 @@ a{
 /* Основная часть страницы */
 body{
     background-image: url(../Images/Other/iphone-14-pro-display2.png);
-    font-family: San Francisco Pro Text, Montserrat;
+    font-family: Montserrat;
     background-attachment: fixed ;
 	background-position: top center;
 }
@@ -101,11 +97,45 @@ body{
 h1{ font-style: bold;
 	font-size: 6em;
 	margin-top: 1%;
-	height: 0px;
 		color: #308fb4;
 		margin-left: 4%;
-
 }
+@media (width < 450px) {
+	h1 {
+		font-style: bold;
+		font-size: 4em;
+		margin-top: 8%;
+		color: #308fb4;
+		margin-left: 11%;
+	}
+  }
+@media (width < 400px) {
+	h1 {
+		font-size: 3em;
+		margin-left: 19%;
+	}
+  }
+  @media (width < 380px) {
+	h1 {
+		font-size: 3em;
+		margin-left: 16%;
+		margin-top: 10%;
+	}
+  }
+  @media (width < 350px) {
+	h1 {
+		font-size: 80px;
+		margin-left: 16%;
+		margin-top: 10%;
+	}
+  }
+  @media (width < 320px) {
+	h1 {
+		font-size: 80px;
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+  }
 .Whitebox{
 	border-radius: 1.5em;
 	margin-top: 8%;
@@ -114,17 +144,162 @@ h1{ font-style: bold;
 	width: 93%;
 	height: 80em;
 }
+@media (width < 1500px) {
+	.Whitebox {
+		margin-top: 10%;
+	}
+  }
+  @media (width < 1200px) {
+	.Whitebox {
+		margin-top: 12%;
+	}
+  }
+  @media (width < 1000px) {
+	.Whitebox {
+		margin-top: 14%;
+	}
+  } @media (width < 900px) {
+	.Whitebox {
+		margin-top: 16%;
+	}
+  }
+@media (width < 800px) {
+	.Whitebox {
+		margin-top: 18%;
+	}
+  }
+  @media (width < 700px) {
+	.Whitebox {
+		margin-top: 20%;
+	}
+  }
+  @media (width < 600px) {
+	.Whitebox {
+		margin-top: 22%;
+	}
+  }
+  @media (width < 560px) {
+	.Whitebox {
+		margin-top: 24%;
+	}
+  }
+  @media (width < 500px){
+.Whitebox {
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+}
+   @media (width < 1300px){
+.Whitebox {
+    height: 50em;
+}
+  } 
 .deliv{
 	position: absolute;
 	margin-top: 2%;
 	margin-left: 4%;
 	font-size: 35px;
 }
+@media (width < 1400px) {
+	.deliv {
+		margin-left: 1%;
+	}
+  }
+  @media (width < 660px) {
+	.deliv {
+		font-size: 1.5em;
+		text-indent: 30px;
+		margin-top: 4%;
+		margin-left: 2%;
+	}
+  }
+  @media (width < 500px) {
+	.deliv {
+		width: 85%;
+		font-size: 1.35em;
+		text-indent: 25px;
+		margin-top: 4%;
+		margin-left: 2%;
+	}
+  }
+  hr{
+	border: none;
+    background-color: #308fb4;
+    color: #308fb4;
+    height: 3px;
+	width: 92.2%;
+	position: absolute;
+	margin-top: 30%;
+  }
+   @media (width < 1400px) {
+	hr {
+		width: 92%;
+	}
+  }
+  @media (width < 500px) {
+	hr {
+		width: 86.5%;
+		margin-top: 25%;
+	}
+  }
+ 
+  @media (width < 400px) {
+	hr {
+		width: 86%;
+		margin-top: 26%;
+	}
+  }
+.secondc{
+	display: none;
+}
+@media (width < 1330px) {
+	.secondc {
+		display: contents;
+		color: #308fb4;
+	}
+  }
 .CDEK{
 	margin-left: 3%;
 	position: absolute;
 	width: 20%;
 }
+@media (width < 1400px) {
+	.CDEK {
+		margin-left: 1%;
+	}
+  }
+@media (width < 1330px) {
+	.CDEK {
+		display: none;
+	}
+  }
+.colortext{
+	font-size: 30px;
+	color: #308fb4;
+}
+@media (width < 500px) {
+	.colortext{
+		width: 80%;
+		font-size: 1.3em;
+		margin-top: -305%;
+	}
+  }
+.adres{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 3%;
+	font-size: 25px;
+	width: 50%;
+}
+@media (width < 500px) {
+	.adres{
+		width: 80%;
+		font-size: 1em;
+		margin-top: 30%;
+		margin-left: 2%;
+	}
+  }
 .social,
 .menu {
    position: relative;
@@ -208,8 +383,12 @@ button {
 	align-items: stretch;
 	height: 72px;
 	color: black;
-	
   } 
+  @media (width < 690px) {
+	.navbar {
+		display: none;
+	}
+  }
   .button {	
 	display: flex;
 	align-items: center;
