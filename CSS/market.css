@@ -5,45 +5,241 @@
 	src: local('Montserrat'),
 		url(../Fonts/Monsterrat/Montserrat-Regular.ttf); 
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-body{
-    background-color: rgb(39, 39, 39);
-    font-family: San Francisco Pro Text, Montserrat;
-    background-attachment: fixed ;
-	background-position: top center;
-}
-.logo{
-    margin-left: 755px;
-    margin-right:auto;
-    box-sizing: content-box;
-    margin-top: 12px;
-    position: relative;
-    height: 55PX;
-}
+/* Шапка страницы */
 header{
     background: linear-gradient(270deg, #005772, #3cb6e5);
     margin-top: -0.8em;
     margin-left: -1.1ex;
-    margin-right: -1.1ex;
+    margin-right: -1ex;
     height: 80px;
     opacity: 0.8;
 }
 .hea {
-    font-family: San Francisco Pro Text, Montserrat;
+    font-family: Montserrat;
     font-size: 50px;
-    /* color: aqua; */
     margin-top: -1.2em;
-    text-align: center;
+    margin-left: 42%;
 	color: #0d0d0e;
 }
+@media (width < 690px){
+	.hea{
+		margin-left: 30%;
+	}
+}
+@media (width < 480px) {
+	.hea {
+		margin-left: 23%;
+	}
+}
+@media (width < 400px) {
+	.hea {
+		font-size: 40px;
+		margin-left: 25%;
+		margin-top: -14%;
+	}
+}
+@media (width < 390px) {
+	.hea {
+		font-size: 40px;
+		margin-left: 25%;
+		margin-top: -15%;
+	}
+  }
+.logo{
+    margin-left: 39%;
+    margin-top: 0.8em;
+    height: 55PX;
+}
+@media (width < 1740px) {
+	.logo {
+		margin-left: 37%;
+	}
+  }
+  @media (width < 1055px) {
+	.logo {
+		margin-left: 35%;
+	}
+  }
+  @media (width < 690px){
+	.logo{
+		margin-left: 21%;
+	}
+}
+@media (width < 500px){
+	.logo{
+		margin-left: 11%;
+	}
+}
+@media (width < 390px){
+	.logo{
+		margin-left: 10%;
+	}
+}
+
+/* Основная Часть */
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Основная часть страницы */
+body{
+    background-image: url(../Images/Other/iphone-14-pro-display2.png);
+    font-family: Montserrat;
+    background-attachment: fixed ;
+	background-position: top center;
+}
+
 .b1{
 	width: 25px;
 	margin-top: 0px;
 	margin-right: 2px;
 }
+h1{
+	text-align: center;
+	font-style: bold;
+	font-size: 6em;
+	margin-top: 1%;
+	color: #308fb4;
+}
+@media (width < 450px) {
+	h1 {
+		font-style: bold;
+		font-size: 4em;
+		margin-top: 8%;
+		color: #308fb4;
+	}
+  }
+@media (width < 400px) {
+	h1 {
+		font-size: 3em;
+	}
+  }
+  @media (width < 380px) {
+	h1 {
+		font-size: 3em;
+		margin-top: 10%;
+	}
+  }
+  @media (width < 350px) {
+	h1 {
+		font-size: 80px;
+		margin-top: 10%;
+	}
+  }
+  @media (width < 320px) {
+	h1 {
+		font-size: 80px;
+		margin-top: 10%;
+	}
+  }
+.Whitebox{
+	border-radius: 1.5em;
+	margin-left: 3.5%;
+	background-color: white;
+	width: 93%;
+	height: 70em;
+}
+   @media (width < 1300px){
+.Whitebox {
+    height: 50em;
+}
+  }
+h2{
+	font-style: bold;
+	font-size: 2.5em;
+}
+/* Каталог начало */
+/* iPhone11 */
+.iPhone11{
+	border-bottom: 3px solid #308fb4;
+	position: absolute;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+/* Black start */
+.iPhone11-black{
+   	padding: 8em 3em;
+	margin-left: 1%;
+	height: 10%;
+	position: absolute;
+	margin-top: 7%;
+}
+.i11{
+	height: 20em;
+	margin-top: -49%;
+}
+.black11{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 20%;
+	font-size: 2em;
+}
+/* Black end */
+/* White start */
+.iPhone11-white{
+	padding: 8em 3em;
+	margin-left: 20%;
+	height: 10%;
+	position: absolute;
+	margin-top: 7%;
+}
+.white11{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 20%;
+	font-size: 2em;
+}
+/* White END */
+.social,
+.menu {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+.social li,
+.menu li {
+   list-style: none;
+}
+@media (width < 500px) {
+	.social {
+		margin-left: -6%;
+	}
+  } 
+.social li a {
+   font-size: 2em;
+   color: #c7e5ed;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+}
+.menu li a {
+   font-size: 1.2em;
+   color: white;
+   margin: 0 15px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.menu li a:hover {
+   opacity: 1;
+}
+footer {
+	position: fixed;
+    background: #005772;
+	box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+   padding: 1.75em .5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 6%;
+   border-radius: 2em;
+   position: static;
+   }
+/* Меню */
 button {
 	border: 0;
 	padding: 0;
@@ -68,6 +264,8 @@ button {
   }
   
   .navbar {
+	position: static;
+	margin-top: -67px;
 	width: 300px;
 	z-index: 1;
 	left: 0;
@@ -76,6 +274,11 @@ button {
 	height: 72px;
 	color: black;
   } 
+  @media (width < 690px) {
+	.navbar {
+		display: none;
+	}
+  }
   .button {	
 	display: flex;
 	align-items: center;
@@ -196,8 +399,8 @@ button {
 	opacity: 1;
   }
 .fe{
-	margin-top: 12px;
+	margin-top: 10px;
 }
 .de{
-	margin-top: 12px;
+	margin-top: 10px;
 }   

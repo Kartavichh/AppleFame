@@ -5,7 +5,7 @@
 	src: local('Montserrat'),
 		url(../Fonts/Monsterrat/Montserrat-Regular.ttf); 
 }
-/* Шапка страницы */
+/* Шапка страницы доставка*/
 header{
     background: linear-gradient(270deg, #005772, #3cb6e5);
     margin-top: -0.8em;

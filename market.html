@@ -7,10 +7,17 @@
     <link href="CSS\market.css" rel="stylesheet" type="text/css">
     <title>Каталог</title>
     <meta name="keywords" content="Apple, Apple Fame, Iphone">
-            <meta name="discription" content="Сайт - каталог техники Apple">
-            <link rel="shortcut icon" href="Images/Other/Layer 6.png" />
+    <meta name="discription" content="Сайт - каталог техники Apple">
+    <link rel="shortcut icon" href="Images/Other/Layer 6.png" />
+    <!-- Иконки в подвале -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <!-- Скрипты для просмотра картинок (API)-->
+    <script type="text/javascript" src="qb/js/jquery-1.4.4.js"></script>
+	  <script type="text/javascript" src="qb/js/qb.js"></script>
 </head>
 <body>
+  <!-- Шапка -->
     <header>
         <a href="AppleFame.html">
              <img class = 'logo'src="Images\Other\apple.png" alt="Логотип">
@@ -35,5 +42,43 @@
                          </div>
                    </nav>
      </header>
+     <!-- Основная часть страницы -->
+     <h1>Каталог</h1>
+     <div class="Whitebox">
+      <h2 class="iPhone11">iPhone 11 / 64gb</h2>
+        <div class="iPhone11-black">
+          <a class="quickbox" href="Images/Other/iPhone11-black.png" title="iPhone11 64gb black">
+            <img class="i11" src="Images/Other/iPhone11-black.png" alt="">
+          </a>
+          <p class="black11"> Black </p>
+        </div>
+        <div class="iPhone11-white">
+          <a class="quickbox" href="Images/Other/apple-iphone-11-white.png" title="iPhone11 64gb white">
+            <img class="i11" src="Images/Other/apple-iphone-11-white.png" alt="">
+          </a>
+          <p class="white11"> White </p>
+        </div>
+     </div>
+<!-- Подвал -->
+     <footer>
+      <ul class="social">
+        <li><a href="https://t.me/applefame">
+          <ion-icon name="logo-apple"></ion-icon>
+       </a></li>
+         <li><a href="https://vk.com/andreylykov1">
+          <ion-icon name="logo-vk"></ion-icon>
+            </a></li>
+         <li><a href="https://instagram.com/andrey.lykov?igshid=NDk5N2NlZjQ=">
+          <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+      </ul>
+      <ul class="menu">
+         <li><a href="AppleFame.html">Apple Fame</a></li>
+         <li><a href="market.html">Каталог</a></li>
+         <li><a href="Feedback.html">Отзывы</a></li>
+         <li><a href="Deliver.html">Доставка</a></li>
+      </ul>
+      <p>©2022 KARTAVICH | All Rights Reserved</p>
+   </footer>
 </body>
 </html>
