@@ -137,7 +137,7 @@ h1{
 	margin-left: 3.5%;
 	background-color: white;
 	width: 93%;
-	height: 140em;
+	height: 250em;
 }
    @media (width < 1300px){
 .Whitebox {
@@ -254,7 +254,7 @@ hr{
     height: 3px;
 	width: 92.2%;
 	position: absolute;
-	margin-top: 41.5%;
+	margin-top: 42%;
   }
   @media (width < 1340px) {
 	hr {
@@ -296,27 +296,91 @@ hr{
 	margin-top: 86.5%;
   }
   @media (width < 1340px) {
-	hr2 {
+	.hr2 {
 		margin-top: 32%;
 	}
   }
    @media (width < 1400px) {
-	hr2 {
+	.hr2 {
 		width: 92%;
 	}
   }
   @media (width < 500px) {
-	hr2 {
+	.hr2 {
 		width: 89.3%;
 		margin-top: 25%;
 	}
   }
  
   @media (width < 400px) {
-	hr2 {
+	.hr2 {
 		width: 89%;
 		margin-top: 26%;
 	}
+  } 
+  /* iPhone13 */
+  .Iph13{
+	width: 94%;
+	position: absolute;
+	margin-top: 90%;
+	margin-left: 2%;
+}
+.silver13{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 21%;
+	font-size: 2em;
+}
+.Blue13{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 12%;
+	font-size: 2em;
+}
+.green13{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 22%;
+	font-size: 2em;
+}
+.hr3{
+	border: none;
+    background-color: #308fb4;
+    color: #308fb4;
+    height: 3px;
+	width: 92.2%;
+	position: absolute;
+	margin-top: 130.5%;
+  }
+  @media (width < 1340px) {
+	.hr3 {
+		margin-top: 32%;
+	}
+  }
+   @media (width < 1400px) {
+	.hr3 {
+		width: 92%;
+	}
+  }
+  @media (width < 500px) {
+	.hr3 {
+		width: 89.3%;
+		margin-top: 25%;
+	}
+  }
+ 
+  @media (width < 400px) {
+	.hr3 {
+		width: 89%;
+		margin-top: 26%;
+	}
+  } 
+  /* iPhone14 */
+  .Iph14{
+	width: 94%;
+	position: absolute;
+	margin-top: 135%;
+	margin-left: 2%;
   }
 .social,
 .menu {
