@@ -18,7 +18,7 @@ header{
     font-family: Montserrat;
     font-size: 50px;
     margin-top: -1.2em;
-    margin-left: 42%;
+    margin-left: 43%;
 	color: #0d0d0e;
 }
 @media (width < 690px){
@@ -46,7 +46,7 @@ header{
 	}
   }
 .logo{
-    margin-left: 39%;
+    margin-left: 40%;
     margin-top: 0.8em;
     height: 55PX;
 }
@@ -137,7 +137,7 @@ h1{
 	margin-left: 3.5%;
 	background-color: white;
 	width: 93%;
-	height: 70em;
+	height: 140em;
 }
    @media (width < 1300px){
 .Whitebox {
@@ -149,6 +149,7 @@ h2{
 	font-size: 2.5em;
 }
 /* Каталог начало */
+
 /* iPhone11 */
 .iPhone11{
 	border-bottom: 3px solid #308fb4;
@@ -190,6 +191,133 @@ h2{
 	font-size: 2em;
 }
 /* White END */
+
+/* RED START */
+.iPhone11-red{
+	padding: 8em 3em;
+	margin-left: 38%;
+	height: 10%;
+	position: absolute;
+	margin-top: 7%;
+}
+.red11{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 28%;
+	font-size: 2em;
+}
+/* RED END */
+
+/* GREEN START */
+.iPhone11-green{
+	padding: 8em 3em;
+	margin-left: 56%;
+	height: 10%;
+	position: absolute;
+	margin-top: 7%;
+}
+.green11{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 24%;
+	font-size: 2em;
+}
+/* GREEN END */
+
+/* YELLOW START */
+.iPhone11-yellow{
+	padding: 8em 3em;
+	margin-left: 74%;
+	height: 10%;
+	position: absolute;
+	margin-top: 7%;
+}
+.yellow11{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 22%;
+	font-size: 2em;
+}
+/* YELLOW END */
+.link11{
+	position: absolute;
+	color: #308fb4;
+	font-size: 2em;
+	margin-top: 35%;
+	margin-left: 3%;
+}
+/* Разделительная черта */
+hr{
+	border: none;
+    background-color: #308fb4;
+    color: #308fb4;
+    height: 3px;
+	width: 92.2%;
+	position: absolute;
+	margin-top: 41.5%;
+  }
+  @media (width < 1340px) {
+	hr {
+		margin-top: 32%;
+	}
+  }
+   @media (width < 1400px) {
+	hr {
+		width: 92%;
+	}
+  }
+  @media (width < 500px) {
+	hr {
+		width: 89.3%;
+		margin-top: 25%;
+	}
+  }
+ 
+  @media (width < 400px) {
+	hr {
+		width: 89%;
+		margin-top: 26%;
+	}
+  }
+  /* Iphone 12 */
+.Iph12{
+	width: 94%;
+	position: absolute;
+	margin-top: 45%;
+	margin-left: 2%;
+}
+.hr2{
+	border: none;
+    background-color: #308fb4;
+    color: #308fb4;
+    height: 3px;
+	width: 92.2%;
+	position: absolute;
+	margin-top: 86.5%;
+  }
+  @media (width < 1340px) {
+	hr2 {
+		margin-top: 32%;
+	}
+  }
+   @media (width < 1400px) {
+	hr2 {
+		width: 92%;
+	}
+  }
+  @media (width < 500px) {
+	hr2 {
+		width: 89.3%;
+		margin-top: 25%;
+	}
+  }
+ 
+  @media (width < 400px) {
+	hr2 {
+		width: 89%;
+		margin-top: 26%;
+	}
+  }
 .social,
 .menu {
    position: relative;
