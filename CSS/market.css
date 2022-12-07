@@ -493,6 +493,105 @@ hr{
 	font-size: 2em;
 	width: 9em;
 }
+.linkh{
+	position: absolute;
+	color: #308fb4;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 242%;
+	margin-left: 7%;
+}
+/* Apple TV */
+.Apple-TV{
+	position: absolute;
+	margin-top: 232.45em;
+    margin-left: 42em;
+	padding: 8em 3em;
+	height: 10%;
+}
+.AP-TV{
+	font-size: 2em;
+	position: absolute;
+	margin-top: 112em;
+	margin-left: 40.5%;
+}
+.hp5{
+	position: absolute;
+	margin-top: 6%;
+	margin-left: 9%;
+	font-size: 2em;
+	width: 9em;
+}
+.Apple-TV-HD{
+	position: absolute;
+	margin-top: 254em;
+    margin-left: 42em;
+	padding: 8em 3em;
+	height: 10%;
+}
+/* Apple Watch */
+.Ap-w{
+	font-size: 2em;
+	position: absolute;
+	margin-top: 112em;
+	margin-left: 68%;
+}
+.firln{
+	margin-left: 61%;
+}
+.w-se{
+	position: absolute;
+	margin-left: 4%;
+	margin-top: 239em;
+}
+.w-se{
+	position: absolute;
+	margin-left: 4%;
+	margin-top: 239em;
+}
+.w-3{
+	position: absolute;
+	margin-left: 19%;
+	margin-top: 238.8em;
+}
+.hp6{
+	position: absolute;
+	margin-top: 6%;
+	margin-left: -20%;
+	font-size: 2em;
+	text-align: center;
+	width: 9em;
+}
+.hp7{
+	position: absolute;
+	margin-top: 6%;
+	margin-left: -25%;
+	font-size: 2em;
+	text-align: center;
+	width: 9em;
+}
+.secln1{
+	position: absolute;
+	margin-top: 24em;
+	margin-left: 57%;
+}
+.ws7{
+	position: absolute;
+	margin-top: 232em;
+	padding: 8em 3em;
+	height: 10%;
+}
+.hp8{
+	position: absolute;
+	margin-top: 6%;
+	margin-left: -7%;
+	font-size: 2em;
+	text-align: center;
+	width: 9em;
+}
+.lin{
+	color: #0d0d0e;
+}
 .social,
 .menu {
    position: relative;
