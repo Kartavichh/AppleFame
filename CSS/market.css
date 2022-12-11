@@ -137,6 +137,7 @@ h1{
 	margin-left: 3.5%;
 	background-color: white;
 	width: 93%;
+	margin-top: -193%;
 	height: 293em;
 }
    @media (width < 1700px){
@@ -152,6 +153,32 @@ h1{
 @media (width < 1550px){
 	.Whitebox {
 		height: 246em;
+	}
+}
+@media (width < 1500px){
+	.Whitebox {
+		margin-top: 0%;
+		height: 450em;
+	}
+}
+@media (width < 1450px){
+	.Whitebox {
+		height: 430em;
+	}
+}
+@media (width < 1400px){
+	.Whitebox {
+		height: 415em;
+	}
+}
+@media (width < 1350px){
+	.Whitebox {
+		height: 400em;
+	}
+}
+@media (width < 1300px){
+	.Whitebox {
+		height: 390em;
 	}
 }
 h2{
@@ -315,12 +342,87 @@ h2{
    		margin-left: 4%;
 	}
 }
+@media (width < 1460px){
+	.link11{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 71%;
+   		margin-left: 4%;
+		width: 85%;
+		text-align: center;
+	}
+}
+@media (width < 1350px){
+	.link11{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 75%;
+   		margin-left: 4%;
+		width: 85%;
+		text-align: center;
+	}
+}
+@media (width < 1230px){
+	.link11{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 78%;
+   		margin-left: 4%;
+		width: 85%;
+		text-align: center;
+	}
+}
 .link12{
 	position: absolute;
-	color: #308fb4;
-	font-size: 2em;
-	margin-top: 38%;
-	margin-left: 3%;
+    color: #308fb4;
+    font-size: 2em;
+    margin-top: 36%;
+    margin-left: 3%
+}
+@media (width < 1500px){
+	.link12{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 76%;
+   		margin-left: 1%;
+	}
+}
+@media (width < 1460px){
+	.link12{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 71%;
+   		margin-left: 4%;
+		width: 85%;
+		text-align: center;
+	}
+}
+@media (width < 1420px){
+	.link12{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 75%;
+   		margin-left: 4%;
+		width: 85%;
+		text-align: center;
+	}
+}
+@media (width < 1230px){
+	.link12{
+		position: absolute;
+		color: #308fb4;
+		font-size: 2em;
+		margin-top: 78%;
+   		margin-left: 4%;
+		width: 85%;
+		text-align: center;
+	}
 }
 /* Разделительная черта */
 hr{
@@ -332,9 +434,16 @@ hr{
 	position: absolute;
 	margin-top: 42%;
   }
-  @media (width < 1340px) {
+  @media (width < 1700px) {
 	hr {
-		margin-top: 32%;
+		margin-left: 1.75%;
+		margin-top: 41%;
+	}
+  }
+  @media (width < 1500px) {
+	hr {
+		margin-left: 1.75%;
+		margin-top: 78%;
 	}
   }
    @media (width < 1400px) {
@@ -342,6 +451,14 @@ hr{
 		width: 92%;
 	}
   }
+  @media (width < 1350px) {
+	hr {
+		width: 91.8%;
+		margin-left: 1.9%;
+		margin-top: 85%;	
+	}
+  }
+ 
   @media (width < 500px) {
 	hr {
 		width: 89.3%;
@@ -358,10 +475,19 @@ hr{
   /* Iphone 12 */
 .Iph12{
 	width: 94%;
-	position: absolute;
-	margin-top: 45%;
-	margin-left: 2%;
+    margin-top: 44%;
+    height: 15%;
+    position: absolute;
 }
+@media (width < 1500px) {
+	.Iph12{
+		width: 94%;
+		position: absolute;
+		margin-top: 23%;
+		margin-left: 2%;
+	}
+  }
+
 .hr2{
 	border: none;
     background-color: #308fb4;
@@ -371,29 +497,25 @@ hr{
 	position: absolute;
 	margin-top: 86.5%;
   }
-  @media (width < 1340px) {
+  @media (width < 1700px) {
 	.hr2 {
-		margin-top: 32%;
+		margin-left: 0%;
+	}
+  }
+  @media (width < 1500px) {
+	.hr2 {
+		margin-left: -0.25%;
+    	margin-top: 102.5%;
 	}
   }
    @media (width < 1400px) {
 	.hr2 {
-		width: 92%;
+		margin-left: 0%;
+		width: 91.9%;
 	}
   }
-  @media (width < 500px) {
-	.hr2 {
-		width: 89.3%;
-		margin-top: 25%;
-	}
-  }
- 
-  @media (width < 400px) {
-	.hr2 {
-		width: 89%;
-		margin-top: 26%;
-	}
-  } 
+  
+
   /* iPhone13 */
   .Iph13{
 	width: 94%;
@@ -401,6 +523,15 @@ hr{
 	margin-top: 90%;
 	margin-left: 2%;
 }
+@media (width < 1500px) {
+	.Iph13{
+		width: 94%;
+		position: absolute;
+		margin-top: 103%;
+		margin-left: 2%;
+	}
+  }
+
 .silver13{
 	position: absolute;
 	margin-top: 15%;
@@ -428,29 +559,18 @@ hr{
 	position: absolute;
 	margin-top: 130.5%;
   }
-  @media (width < 1340px) {
+  @media (width < 1500px) {
 	.hr3 {
-		margin-top: 32%;
+		margin-left: 0%;
+		margin-top: 180.5%;
+		width: 92%;
 	}
-  }
-   @media (width < 1400px) {
+   }
+   /* @media (width < 1400px) {
 	.hr3 {
 		width: 92%;
 	}
-  }
-  @media (width < 500px) {
-	.hr3 {
-		width: 89.3%;
-		margin-top: 25%;
-	}
-  }
- 
-  @media (width < 400px) {
-	.hr3 {
-		width: 89%;
-		margin-top: 26%;
-	}
-  } 
+   } */
   /* iPhone14 */
   .Iph14{
 	width: 94%;
@@ -458,6 +578,13 @@ hr{
 	margin-top: 135%;
 	margin-left: 2%;
   }
+  @media (width < 1500px) {
+	.Iph14 {
+		margin-left: 0%;
+		margin-top: 182%;
+		width: 92%;
+	}
+}
   .hr4{
 	border: none;
     background-color: black;
@@ -467,37 +594,28 @@ hr{
 	position: absolute;
 	margin-top: 175%;
   }
-  @media (width < 1340px) {
+  @media (width < 1500px) {
 	.hr4 {
-		margin-top: 32%;
-	}
-  }
-   @media (width < 1400px) {
-	.hr4 {
+		margin-left: 0%;
+		margin-top: 260.5%;
 		width: 92%;
 	}
-  }
-  @media (width < 500px) {
-	.hr4 {
-		width: 89.3%;
-		margin-top: 25%;
-	}
-  }
- 
-  @media (width < 400px) {
-	.hr4 {
-		width: 89%;
-		margin-top: 26%;
-	}
-  }
+}
   /* Аксессуары */
+  .acs{
+	margin-top: 92%;
+  }
 .aces{
 	border-bottom: 3px solid #308fb4;
 	position: absolute;
 	margin-left: 38.5%;
 	margin-top: 178%;
 }
-
+@media (width < 1500px) {
+	.aces {
+		margin-top: 179%;
+	}
+}
 /* Наушники */
 .headphones{
 	font-size: 2em;
@@ -512,6 +630,11 @@ hr{
 	padding: 8em 3em;
 	height: 10%;
 }
+@media (width < 1500px) {
+	.earpods{
+		margin-left: -0.2%;
+	}
+  }
 .hp1{
 	position: absolute;
 	margin-top: 6%;
@@ -537,6 +660,11 @@ hr{
 	padding: 8em 3em;
 	height: 10%;
 }
+@media (width < 1500px) {
+	.AirPods{
+		margin-left: 19.8%;
+	}
+  }
 .secln{
 	position: absolute;
 	margin-top: 210.18%;
@@ -589,6 +717,16 @@ hr{
 		margin-top: 245%;
 	}
   }
+  @media (width < 1500px) {
+	.linkh {
+		margin-top: 311%;
+	}
+  }
+  @media (width < 1500px) {
+	.headp {
+		margin-left: 13%;
+	}
+  }
 /* Apple TV */
 
 .Apple-TV{
@@ -604,26 +742,13 @@ hr{
 	margin-top: 187%;
 	margin-left: 40.5%;
 }
-/* @media (width < 1800px) {
-	.AP-TV {
-		margin-left: 43%;
-	}
-  }
-  @media (width < 1700px) {
-	.AP-TV {
-		margin-left: 46%;
-	}
-  }
-  @media (width < 1600px) {
-	.AP-TV {
-		margin-left: 49%;
-	}
-  }
-  @media (width < 1520px) {
-	.AP-TV {
-		margin-left: 50%;
-	}
-  } */
+@media (width < 1500px) {
+	.applw{
+		position: absolute;
+		margin-left: 27%;
+		margin-top: 252%;
+	}	
+}
 .hp5{
 	position: absolute;
 	margin-top: 6%;
@@ -638,6 +763,11 @@ hr{
 	padding: 8em 3em;
 	height: 10%;
 }
+@media (width < 1500px) {
+	.mar {
+		margin-left: 25%;
+	}	
+}
 /* Apple Watch */
 .Ap-w{
 	font-size: 2em;
@@ -645,24 +775,50 @@ hr{
 	margin-top: 187%;
 	margin-left: 68%;
 }
+@media (width < 1500px){
+	.Ap-w {
+		margin-left: 102%;
+		margin-top: -46%;
+		width: 105%;
+	}
+}
 .firln{
 	margin-left: 61%;
+}
+@media (width < 1500px){
+	.firln {
+		margin-left: 61%;
+		margin-top: 80%;
+	}
 }
 .w-se{
 	position: absolute;
 	margin-left: 4%;
 	margin-top: 199.25%;
 }
-
+@media (width < 1500px){
+	.w-se {
+		position: inherit;
+		margin-left: -61%;
+		margin-top: -95.75%;
+	}
+}
 .w-3{
 	position: absolute;
 	margin-left: 19%;
 	margin-top: 199%;
 }
+@media (width < 1500px){
+	.w-3 {
+		position: inherit;
+		margin-left: 285%;
+		margin-top: -306%;
+	}
+}
 .hp6{
 	position: absolute;
 	margin-top: 6%;
-	margin-left: -20%;
+	margin-left: -25%;
 	font-size: 2em;
 	text-align: center;
 	width: 9em;
@@ -676,21 +832,34 @@ hr{
 	width: 9em;
 }
 .secln1{
-	position: absolute;
+	position: inherit;
 	margin-top: 212%;
 	margin-left: 57%;
 }
-.ws7{
-	position: absolute;
-	padding: 8em 3em;
-	height: 10%;
+@media (width < 1500px){
+	.secln1 {
+		margin-left: 23%;
+    	margin-top: 80%;
+	}
 }
-@media (width < 1580px) {
+.ws7 {
+    margin-top: 213%;
+    margin-left: 3%;
+    position: absolute;
+    padding: 8em 3em;
+    height: 10%;
+}
+@media (width < 1650px) {
 	.ws7{
+		margin-top: 215%;
 		position: absolute;
-		margin-left: -2em;
 		padding: 8em 3em;
 		height: 10%;
+	}
+  }
+  @media (width < 1500px) {
+	.ws7{
+		padding: 8em 0em;
 	}
   }
 .hp8{
@@ -701,25 +870,33 @@ hr{
 	text-align: center;
 	width: 9em;
 }
+@media (width < 1500px){
+	.hp8 {
+		margin-top: 1%;
+		margin-left: -4%;
+	}
+}
 .lin{
 	color: #0d0d0e;
 }
-.AirPodsM1{
-	position: absolute;
-    margin-left: 18em;
-	padding: 8em 3em;
-	height: 10%;
+.AirPodsM1 {
+    position: absolute;
+    margin-top: 213.1%;
+    margin-left: 20%;
+    padding: 8em 3em;
+    height: 10%;
+}
+@media (width < 1500px){
+	.AirPodsM1 {
+		padding: 8em 18em;
+	}
 }
 @media (width < 1650px) {
 	.AirPodsM1 {
-		margin-left: 16em;
+		margin-top: 215%;
 	}
   }
-  @media (width < 1580px) {
-	.AirPodsM1 {
-		margin-left: 14em;
-	}
-  }
+
   @media (width < 1700px) {
 	.bott{
 		margin-top: 220%;
