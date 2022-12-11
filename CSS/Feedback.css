@@ -1,48 +1,216 @@
 /* Импортируем нужные ресурсы */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+/* Шапка страницы */
 @font-face {
 	font-family: 'Montserrat'; 
 	src: local('Montserrat'),
 		url(../Fonts/Monsterrat/Montserrat-Regular.ttf); 
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-body{
-    background-color: rgb(39, 39, 39);
-    font-family: San Francisco Pro Text, Montserrat;
-    background-attachment: fixed ;
-	background-position: top center;
-}
-.logo{
-    margin-left: 755px;
-    margin-right:auto;
-    box-sizing: content-box;
-    margin-top: 12px;
-    position: relative;
-    height: 55PX;
-}
 header{
     background: linear-gradient(270deg, #005772, #3cb6e5);
     margin-top: -0.8em;
     margin-left: -1.1ex;
-    margin-right: -1.1ex;
+    margin-right: -1ex;
     height: 80px;
     opacity: 0.8;
 }
-h1{
-	color: white;
-	margin-left: 30px;
-}
 .hea {
-    font-family: San Francisco Pro Text, Montserrat;
+    font-family: Montserrat;
     font-size: 50px;
-    /* color: aqua; */
     margin-top: -1.2em;
-    text-align: center;
+    margin-left: 42%;
 	color: #0d0d0e;
 }
+@media (width < 664px){
+	.hea{
+		margin-left: 30%;
+	}
+}
+@media (max-width: 480px) {
+	.hea {
+		margin-left: 30%;
+		font-size: 40px;
+		margin-top: -14%;
+	}
+}
+@media (width < 390px) {
+	.hea {
+		margin-top: -15%;
+		margin-left: 25%;
+	}
+  }
+.logo{
+    margin-left: 39%;
+    margin-top: 0.8em;
+    height: 55PX;
+}
+@media (width < 1740px) {
+	.logo {
+		margin-left: 37%;
+	}
+  }
+  @media (width < 1055px) {
+	.logo {
+		margin-left: 35%;
+	}
+  }
+  @media (width < 690px){
+	.logo{
+		margin-left: 21%;
+	}
+}
+@media (width < 500px){
+	.logo{
+		margin-left: 15%;
+	}
+}
+@media (width < 390px){
+	.logo{
+		margin-left: 10%;
+	}
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.pr{
+	text-decoration: none;
+    color: black;
+}
+/* Основная часть страницы */
+body{
+    background-image: url(../Images/Other/iphone-14-pro-display2.png);
+    font-family: San Francisco Pro Text, Montserrat;
+    background-attachment: fixed ;
+	background-position: top center;
+}
+footer {
+    background: #005772;
+	box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+   padding: 1.75em .5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 4em;
+   border-radius: 2em;
+   position: static;
+   }
+   h1{
+	text-align: center;
+	font-style: bold;
+	font-size: 6em;
+	margin-top: 1%;
+	color: #308fb4;
+}
+   .scr1 {
+	max-height: 800px;
+    display: block;
+    margin-left: 32%;
+    margin-right: auto;
+	margin-bottom: -2%;
+}
+@media (width < 1560px){
+	.scr1{
+		margin-left: 19%;
+}
+}
+.p{
+    margin-top: -25%;
+    margin-left: 56%;
+    width: 40%;
+	text-shadow: 4px 1px 2px black;
+    text-align: center;
+	position: absolute;
+	font-size: 2em;
+	color: white;
+}
+@media (width < 1880px){
+	.p{
+		margin-top: -26%;
+		margin-left: 52%;
+	}
+}
+@media (width < 1820px){
+	.p{
+		margin-top: -27%;
+   		margin-left: 54%;
+}
+	}
+@media (width < 1740px){
+	.p{
+		margin-top: -28%;
+    	margin-left: 57%;
+}
+}
+@media (width < 1650px){
+	.p{
+		margin-top: -30%;
+    	margin-left: 59%;
+}
+}
+@media (width < 1560px){
+	.p{
+		margin-top: -32%;
+    	margin-left: 50%;
+}
+}
+@media (width < 1450px){
+	.p{
+		margin-top: -34.5%;
+    	margin-left: 54%;
+}
+}
+@media (width < 1370px){
+	.p{
+		margin-top: -37.5%;
+    	margin-left: 54%;
+}
+}
+@media (width < 1280px){
+	.p{
+		margin-top: -41.5%;
+    	margin-left: 54%;
+}
+}
+.social,
+.menu {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+.social li,
+.menu li {
+   list-style: none;
+}
+@media (width < 500px) {
+	.social {
+		margin-left: -6%;
+	}
+  } 
+.social li a {
+   font-size: 2em;
+   color: #c7e5ed;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+}
+.menu li a {
+   font-size: 1.2em;
+   color: white;
+   margin: 0 15px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.menu li a:hover {
+   opacity: 1;
+}
+/* Меню */
 .b1{
 	width: 25px;
 	margin-top: 0px;
@@ -72,6 +240,8 @@ button {
   }
   
   .navbar {
+	position: static;
+	margin-top: -67px;
 	width: 300px;
 	z-index: 1;
 	left: 0;
@@ -79,6 +249,11 @@ button {
 	align-items: stretch;
 	height: 72px;
 	color: black;
+  }
+  @media (width < 665px) {
+	.navbar {
+		display: none;
+	}
   } 
   .button {	
 	display: flex;
@@ -162,7 +337,7 @@ button {
 	  position: absolute;
 	  top: 72px;
 	  left: 0;
-	  width: 200px;
+	  width: 180px;
 	  padding: 6px 24px 10px;
 	  margin-bottom: 0;
 	  place-items: start;
@@ -200,8 +375,8 @@ button {
 	opacity: 1;
   }
 .fe{
-	margin-top: 12px;
+	margin-top: 10px;
 }
 .de{
-	margin-top: 12px;
-}   
+	margin-top: 10px;
+}

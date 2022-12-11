@@ -80,6 +80,10 @@ a{
     text-decoration: none;
     color: white;
 }
+.pr{
+	text-decoration: none;
+    color: black;
+}
 /* Основная часть страницы */
 body{
     background-image: url(../Images/Other/iphone-14-pro-display2.png);
